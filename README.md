@@ -7,7 +7,6 @@ A hook script to increment a version number for git
 Design your own versionning schema like this : 
 
 ```bash
-
 0.1
 0.0.1
 0.0.0.1
@@ -44,7 +43,9 @@ You will notice each time you commit, version.md ( or your custom version file )
 
 Options to create a Git tag on each major updates following a schema like : 
 
+```bash
 0.0.9 -> 0.1.0 // No tag 0.1.0
 0.9 -> 1.0 // Creation of tag 1.0
 0.0.0.9 -> 0.0.1.0 // No tag 0.0.1.0
 0.9.9.9 -> 1.0.0.0 // Creation of tag 1.0.0.0
+```
